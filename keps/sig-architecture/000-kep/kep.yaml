@@ -1,0 +1,33 @@
+id: ""
+prnumber: ""
+name: ""
+title: hello
+kep-number: "000"
+authors: ['@jane.doe']
+owning-sig: sig-architecture
+participating-sigs: [sig-architecture]
+reviewers: [TBD, '@alice.doe']
+approvers: [TBD, '@oscar.doe']
+prr-approvers: ['@wojtek-t']
+creation-date: "2020-09-19"
+last-updated: v1.19
+status: provisional
+see-also:
+- /keps/sig-aaa/1234-we-heard-you-like-keps
+- /keps/sig-bbb/2345-everyone-gets-a-kep
+replaces:
+- /keps/sig-ccc/3456-replaced-kep
+stage: alpha|beta|stable
+latest-milestone: v1.19
+milestone:
+  alpha: v1.19
+  beta: v1.20
+  stable: v1.22
+feature-gates:
+- name: MyFeature
+  components:
+  - kube-apiserver
+  - kube-controller-manager
+disable-supported: true
+metrics:
+- my_feature_metric
